@@ -24,6 +24,7 @@ TotD[1]="\nTip: Starting the script with '-f' or '--fast' immediately downloads 
 TotD[2]="\nTip: Choosing option 1 in the main menu loop will print extended usage information\n "
 TotD[3]="\nTip: Choosing option 4 in the main menu automatically removes all downloaded items in /tmp\n"
 TotD[4]="\nTip: Individual links to Helper scripts can be found at; github.com/NullArray/RootHelper\n"
+TotD[5]="\nTip: Know of the perfect tool that would compliment the assortment available through RootHelper?\nLet the Dev know over at github.com/NullArray/RootHelper/issues."
 
 # Declare destination directory
 rh_dest="/tmp"
@@ -40,6 +41,7 @@ RHelpers['Linux-Smart-Enumeration']="https://github.com/diego-treitos/linux-smar
 RHelpers['Bashark.zip']="https://github.com/TheSecondSun/Bashark/archive/master.zip"
 RHelpers['ExploitSuggest_perl.zip']="https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip"
 RHelpers['unixprivesc.zip']="https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip"
+Rhelpers['RedGhost.zip']="https://github.com/d4rk007/RedGhost/archive/master.zip"
 
 # Download
 function rh_download(){
@@ -95,7 +97,7 @@ function rh_clean(){
 
 
 if [[ "$1" != "" ]]; then
-    case $1 in
+	case $1 in
 		'-f' | '--fast' )
 		fast=1
 	esac
