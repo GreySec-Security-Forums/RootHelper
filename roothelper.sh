@@ -37,11 +37,12 @@ RHelpers['ExploitSuggest.py']="http://www.securitysift.com/download/linuxprivche
 RHelpers['sbd.zip']="https://github.com/NullArray/SBD/archive/master.zip"
 RHelpers['AutoRoot.zip']="https://github.com/nilotpalbiswas/Auto-Root-Exploit/archive/master.zip"
 RHelpers['LinEnum.zip']="https://github.com/rebootuser/LinEnum/archive/master.zip"
-RHelpers['Linux-Smart-Enumeration']="https://github.com/diego-treitos/linux-smart-enumeration/archive/master.zip"
+RHelpers['Linux-Smart-Enumeration.zip']="https://github.com/diego-treitos/linux-smart-enumeration/archive/master.zip"
 RHelpers['Bashark.zip']="https://github.com/TheSecondSun/Bashark/archive/master.zip"
 RHelpers['ExploitSuggest_perl.zip']="https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip"
 RHelpers['unixprivesc.zip']="https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip"
-Rhelpers['RedGhost.zip']="https://github.com/d4rk007/RedGhost/archive/master.zip"
+RHelpers['RedGhost.zip']="https://github.com/d4rk007/RedGhost/archive/master.zip"
+RHelpers['rootend.zip']="https://github.com/twelvesec/rootend/archive/master.zip"
 
 # Download
 function rh_download(){
